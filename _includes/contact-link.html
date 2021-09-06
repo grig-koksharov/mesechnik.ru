@@ -1,5 +1,17 @@
 <div class="contact">
   <ul class="contact__list list-reset">
+    
+  
+    {% if site.data.settings.tiktok %}
+      <li><a href="{{ site.data.settings.tiktok }}"><i class="ion ion-logo-tiktok"></i></a></li>
+    {% else %} {% endif %}
+    
+    
+  
+    {% if site.data.settings.youtube %}
+      <li><a href="{{ site.data.settings.youtube }}"><i class="ion ion-logo-youtube"></i></a></li>
+    {% else %} {% endif %}
+    
     {% if site.data.settings.twitter %}
       <li><a href="{{ site.data.settings.twitter }}"><i class="ion ion-logo-twitter"></i></a></li>
     {% else %} {% endif %}
