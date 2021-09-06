@@ -10,6 +10,14 @@
             <span class="hero__social-title">Follow Me |</span>
             {% include contact-link.html %}
           </div>
+          
+            <div class="hero__social">
+            <span class="hero__social-title">Contact Me |</span>
+    {% if site.data.settings.telegram %}
+      <li><a href="{{ site.data.settings.telegram_me }}"><img style="width:13px;height:13px; content:url(https://unpkg.com/ionicons@5.5.2/dist/svg/paper-plane.svg)"></img></a></li>
+    {% else %} {% endif %}
+          </div>  
+      
         </div>
       </div>
       <div class="col col-6 col-t-12">
