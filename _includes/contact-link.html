@@ -27,6 +27,10 @@
     {% if site.data.settings.instagram %}
       <li><a href="{{ site.data.settings.instagram }}"><img style="width:13px;height:13px; content:url(https://unpkg.com/ionicons@5.5.2/dist/svg/logo-instagram.svg)"></img></a></li>
     {% else %} {% endif %}
+
+    {% if site.data.settings.telegram %}
+      <li><a href="{{ site.data.settings.telegram }}"><img style="width:13px;height:13px; content:url(https://unpkg.com/ionicons@5.5.2/dist/svg/ios-paper-plane.svg)"></img></a></li>
+    {% else %} {% endif %}
   
     {% if site.data.settings.pinterest %}
       <li><a href="{{ site.data.settings.pinterest }}"><i class="ion ion-logo-pinterest"></i></a></li>
