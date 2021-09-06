@@ -2,7 +2,7 @@
 layout: post
 title:  "Консультация со мной"
 date:   2021-08-30
-image:  03.jpg
+image:  04.jpg
 ---
 
 Безжизненная жизнь
