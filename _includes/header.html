@@ -22,8 +22,20 @@
             </div>
 
             <div class="nav__title">Menu</div>
+            
+            
 
             <ul class="nav__list list-reset">
+              
+              <li class="nav__item">
+                <a href="{{site.baseurl}}2021/09/01/club/" class="nav__link">Клуб</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{site.baseurl}}2021/08/30/consult/" class="nav__link">Консультации</a>
+              </li>
+              <li class="nav__item">
+                <a href="{{site.baseurl}}2021/09/01/checklist/" class="nav__link">Чек-лист</a>
+              </li>
               {% for page in site.pages %}
                 {% unless page.name == 'tags.html' or page.name == '404.html' %}
               {% if page.title %}
